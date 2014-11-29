@@ -1,0 +1,5 @@
+2014-11-29 11:35  grep Completed sequencing_info.tsv | cut -f1,7 > accession.ids
+2014-11-29 11:35  cat accession.ids |get_sra_info.pl > accession.full.with.errors
+2014-11-29 11:35  cat accession.ids |get_sra_info.pl -m > accession.full
+2014-11-29 11:36  cat accession.ids |get_sra_info.pl -p -m > arast.params
+2014-11-29 11:36  cat accession.ids |get_sra_info.pl -p -m -d

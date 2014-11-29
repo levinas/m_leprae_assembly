@@ -1,0 +1,14 @@
+Species Name from project sheet	Coverage / Type	Taxonomy ID	NCBI BioProject ID	Sample Accession #	Sequencing	SRA Accession	SRA Accession	*sample name	strain	bioproject id	 *collection date	*specific host	*environment (material)	*project name	finishing strategy (depth of coverage)
+Mycobacterium leprae 10E7 Arm Liver 051111	Draft	1769	189966	MS100015393	Completed	SRP019216	SRX248205, SRX248206	AL7	Thi 55	189966	12/6/11	Mouse	Tissue	Leprosy Whole Genome Sequencing	1053
+Mycobacterium leprae 10E6 Arm Liver 051111	Draft	1769	189966	MS100015394	Completed	SRP019215	SRX248203, SRX248204	AL6	Thi 54	189966	12/6/11	Mouse	Tissue	Leprosy Whole Genome Sequencing	1866
+Mycobacterium leprae 10E5 Arm Liver 051111	Draft	1769	189966	MS100015395	Completed	SRP019214	SRX248202	AL5	Thi 53	189966	12/6/11	Mouse	Tissue	Leprosy Whole Genome Sequencing	1251
+Mycobacterium leprae 7Q90 051611	Draft	1769	189966	MS100015396	Completed	SRP019213	SRX248201	7Q90	BR4923	189966	12/6/11	Armadillo	Tissue	Leprosy Whole Genome Sequencing	1718
+Mycobacterium leprae 8X51 051611	Draft			MS100015397	Abandoned										
+Mycobacterium leprae 5L113 051611	Draft	1769	189966	MS100015398	Completed	SRP019211	SRX248198	5L113	NHDP 55	189966	12/6/11	Armadillo	Tissue	Leprosy Whole Genome Sequencing	849
+Mycobacterium leprae 7P06 051611	Draft			MS100015399	Abandoned										
+Mycobacterium leprae 3V110	Draft			MS100015400	Abandoned										
+Mycobacterium leprae 3S44	Draft			MS100018810	Abandoned			3S44	NHDP 98		12/6/11	Armadillo	Tissue	Leprosy Whole Genome Sequencing	
+Mycobacterium leprae 8T70	Draft	1769	189966	MS100018811	Completed	SRP020228	SRX256749	8T70	NHDP 55	189966	12/6/11	Armadillo	Tissue	Leprosy Whole Genome Sequencing	914
+Mycobacterium leprae 5L116	Draft	1769	189966	MS100018812	Completed	SRP019212	SRX248199	5L116	NHDP 55	189966	12/6/11	Armadillo	Tissue	Leprosy Whole Genome Sequencing	1105
+Mycobacterium leprae 7935681	Draft	1297124	190887	MS100023146	Completed	SRP020229	SRX256755	7935681	Unknown	190887	3/13/12	Human	Tissue	Leprosy Whole Genome Sequencing	876
+Mycobacterium leprae 3125609	Draft	1297123	190886	MS100023147	Completed	SRP020230	SRX256766	3125609	Unknown	190886	3/13/12	Human	Tissue	Leprosy Whole Genome Sequencing	1296
