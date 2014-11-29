@@ -15,13 +15,16 @@ usage:  $0 [ options ] < table-with-SRP-IDs > extended-table-with-SRR-info 2> id
 
 Options:
         -c int            - 1-based number of column that contains SRP or SRA ID
+        -d                - download fastq data for matching SRR runs
         -j                - output reads information in JSON
+        -m                - check if query ID matches SRP/SRA accession to filter out superfluous matches
         -p                - output reads information in Assembly-RAST CLI parameters
 
 Examples: 
 
         $0 SRA068895 SRP020228 SRP020230 > table
         $0 SRA068895 -j > json
+        cat SRP.ist | $0 -m -d -p > arast.params
 
 End_of_Usage
 
@@ -109,6 +112,7 @@ sub arast_param_for_run_set {
     
 sub key_run_set_stats {
     my ($hash, $opts) = @_;
+    my $download = $opts->{download};
     my $match_id = $opts->{match_id};
     my $pkg = $hash->{EXPERIMENT_PACKAGE};
     my @set = ref($pkg) eq 'ARRAY' ? @$pkg : $pkg ? ($pkg) : ();
@@ -125,6 +129,8 @@ sub key_run_set_stats {
         my $reads = $rs->{Statistics}->{Read};
         my @lens = map { $_->{average} } @$reads;
         my $rlen = mean(\@lens);
+
+        download_run($acc) if $download;
 
         # Usually: SRP = $study, SRA = $submission
         # print join("\t", $match_id, $study, $submission) . "\n";
