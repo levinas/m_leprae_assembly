@@ -3,3 +3,4 @@
 2014-11-29 11:35  cat accession.ids |get_sra_info.pl -m > accession.full
 2014-11-29 11:36  cat accession.ids |get_sra_info.pl -p -m > arast.params
 2014-11-29 11:36  cat accession.ids |get_sra_info.pl -p -m -d
+2014-11-29 11:50  grep fastq params T -3 P 'system "ar-run -r full_spades --curl $_"  
